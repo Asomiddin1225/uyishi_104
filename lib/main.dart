@@ -25,7 +25,7 @@ void main() {
         'GameOver': (_, game) => GameOver(game: game),
         'GameControls': (_, game) => GameControls(game: game),
         'NextLevel': (_, game) => NextLevelOverlay(game: game),
-      }
+      },
       initialActiveOverlays: const ['MainMenu', 'GameControls'],
     ),
   );
